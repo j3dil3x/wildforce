@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: #d9cbb5;
+  text-decoration: none;
+}
+html, body, .wrap{
+  height: 100%;
+}
+.wrap{
+  display: flex;
+  flex-flow: column;
+  background-color: #111111;
+  color: #d9cbb5;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  z-index: 2;
+}
+header h1{
+  margin-top: 10px;
+  font-size: 64px;
+  padding-left: 30px;
+  font-family: "Charlemagne Std";
+}
+header ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 500px;
+  padding-right: 30px;
+}
+header ul li{
+  font-family: "Myriad Pro";
+  font-size: 30px;
+}
+/* Content */
+.bottomWrap{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  outline: none;
+}
+.mainContent{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  outline: none;
+}
+.animalImg{
+  height: 400px;
+  width: 600px;
+  z-index: 2;
+}
+.quoteAuth{
+  display: flex;
+  flex-flow: column;
+}
+.quoteAuth p{
+  font-family: "Myriad Pro";
+}
+.quote{
+  font-size: 30px;
+  font-style: italic;
+  margin-right: 100px;
+  margin-top: 40px;
+}
+.auth{
+  font-size: 22px;
+}
+.quotes{
+  font-style: normal;
+  font-size: 90px;
+}
+.beast h2{
+  font-size: 100px;
+  font-family: "Charlemagne Std";
+  margin-right: 100px;
+  margin-top: 70px;
+  z-index: 2;
+}
+.beast{
+  z-index: 2;
+}
+.buttons{
+  display: flex;
+  align-items: flex-end;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.buttons ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.buttons ul li{
+  margin: 0 10px 0 10px;
+}
+.buttons ul li:nth-child(2n){
+  width: 30px;
+  border: 1px solid #d9cbb5;
+  height: 0px;
+}
+.buttons ul li:nth-child(2){
+  width: 60px;
+  border: 1px solid #d9cbb5;
+  height: 0px;
+}
+.buttons ul li:nth-child(1){
+  font-size: 50px;
+}
+/* slick */
+.slick-dots{
+  display: flex;
+  position: absolute;
+  list-style: none;
+  bottom: 40px;
+  left: 60px;
+}
+.slick-button{
+  border: none;
+  background: none;
+  color: #d9cbb5;
+  font-size: 36px;
+  outline: none;
+  margin: 0 20px 0 20px;
+  font-family: "Charlemagne Std";
+}
+.slick-slide{
+  outline: none;
+  z-index: 0;
+}
+/* decoration */
+.centerLine{
+  position: absolute;
+  background-color: #090909;
+  width: 33%;
+  height: 100%;
+  right: 35%;
+  z-index: 0;
+}
+.centerLine2{
+  position: absolute;
+  background-color: #090909;
+  width: 100%;
+  height: 40%;
+  top: 30%;
+  z-index: 0;
+}
